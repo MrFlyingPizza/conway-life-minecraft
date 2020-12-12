@@ -1,0 +1,21 @@
+main: GamePlugin
+name: GamePlugin
+version: 1.0.0
+description: Play Conway's Game of Life with Voxels.
+api-version: 1.16
+
+commands:
+  setpos:
+    description: pos 1 of conway game
+    usage: /<command> position
+    permission: none
+
+  startconway:
+    description: start game
+    usage: /<command> time
+    permission: none
+
+  endconway:
+    description: end game
+    usage: /<command>
+    permission: none
